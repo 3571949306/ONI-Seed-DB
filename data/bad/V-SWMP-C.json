@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "V-SWMP-C",
-  "updatedAt": "2026-11-27T21:06:48Z",
-  "count": 192,
+  "updatedAt": "2026-11-27T21:51:38Z",
+  "count": 194,
   "byDlc": {
     "EXPANSION1_ID": [
       47,
@@ -143,6 +143,8 @@
       4685,
       4740,
       4755,
+      4847,
+      4898,
       4971,
       4992,
       5043,
