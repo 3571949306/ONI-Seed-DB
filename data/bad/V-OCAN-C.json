@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "V-OCAN-C",
-  "updatedAt": "2026-11-27T03:20:31Z",
-  "count": 1,
+  "updatedAt": "2026-11-27T03:48:40Z",
+  "count": 2,
   "byDlc": {
     "EXPANSION1_ID": [
-      170
+      170,
+      511
     ]
   }
 }
