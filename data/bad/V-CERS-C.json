@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "V-CERS-C",
-  "updatedAt": "2026-11-27T06:08:31Z",
-  "count": 37,
+  "updatedAt": "2026-11-27T06:23:39Z",
+  "count": 42,
   "byDlc": {
     "EXPANSION1_ID": [
       11,
@@ -41,7 +41,12 @@
       669,
       691,
       705,
-      763
+      763,
+      779,
+      785,
+      791,
+      813,
+      821
     ]
   }
 }
