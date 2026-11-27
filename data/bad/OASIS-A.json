@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "OASIS-A",
-  "updatedAt": "2026-11-27T03:50:33Z",
-  "count": 2,
+  "updatedAt": "2026-11-27T05:37:48Z",
+  "count": 3,
   "byDlc": {
     "": [
       10,
-      54
+      54,
+      567
     ]
   }
 }
