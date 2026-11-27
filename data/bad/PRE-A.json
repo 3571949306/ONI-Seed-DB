@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "PRE-A",
-  "updatedAt": "2026-11-27T17:45:01Z",
-  "count": 153,
+  "updatedAt": "2026-11-27T18:00:59Z",
+  "count": 154,
   "byDlc": {
     "": [
       38,
@@ -157,7 +157,8 @@
       6585,
       6630,
       6894,
-      6918
+      6918,
+      6984
     ]
   }
 }
