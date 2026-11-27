@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "OASIS-A",
-  "updatedAt": "2026-11-27T07:41:39Z",
-  "count": 8,
+  "updatedAt": "2026-11-27T11:43:51Z",
+  "count": 9,
   "byDlc": {
     "": [
       10,
@@ -12,7 +12,8 @@
       745,
       791,
       831,
-      1015
+      1015,
+      1884
     ]
   }
 }
