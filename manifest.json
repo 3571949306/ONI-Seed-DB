@@ -1,6 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T00:00:00Z",
-  "totalSeeds": 0,
-  "clusters": []
+  "updatedAt": "2026-11-27T02:14:37Z",
+  "totalSeeds": 8,
+  "clusters": [
+    {
+      "clusterPrefix": "SNDST-C",
+      "file": "data/SNDST-C.json",
+      "count": 4,
+      "sha256": "512df42838eeb2388fbbb25c640185a764b9088908d10343cccf63b605950df8",
+      "gzipFile": "data/SNDST-C.json.gz",
+      "gzipSha256": "ea2e1b3ca58ed1f149598ffc15ae9454317d77030eef4b133cc4f238a36d94dc",
+      "gzipBytes": 3224
+    },
+    {
+      "clusterPrefix": "V-SNDST-C",
+      "file": "data/V-SNDST-C.json",
+      "count": 4,
+      "sha256": "bd6e1bd387ed97b64eb0367d162da75dce7f2b4fa49268efb4e86c08f8389eb6",
+      "gzipFile": "data/V-SNDST-C.json.gz",
+      "gzipSha256": "d3e7830d1fd1f6676692ca3f783729de84f572c6a877047f7e6fbda5e6cce544",
+      "gzipBytes": 3386
+    }
+  ]
 }
