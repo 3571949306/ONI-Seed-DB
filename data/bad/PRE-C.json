@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "PRE-C",
-  "updatedAt": "2026-11-27T04:35:45Z",
-  "count": 53,
+  "updatedAt": "2026-11-27T04:50:42Z",
+  "count": 55,
   "byDlc": {
     "EXPANSION1_ID": [
       2,
@@ -57,7 +57,9 @@
       817,
       831,
       887,
-      923
+      923,
+      957,
+      1033
     ]
   }
 }
