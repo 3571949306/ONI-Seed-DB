@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "M-CERS-C",
-  "updatedAt": "2026-11-27T16:11:02Z",
-  "count": 222,
+  "updatedAt": "2026-11-27T16:21:34Z",
+  "count": 224,
   "byDlc": {
     "EXPANSION1_ID": [
       8,
@@ -146,10 +146,12 @@
       1259,
       1313,
       1315,
+      1316,
       1321,
       1329,
       1331,
       1371,
+      1388,
       1391,
       1405,
       1429,
