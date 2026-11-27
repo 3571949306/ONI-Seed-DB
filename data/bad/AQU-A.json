@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "AQU-A",
-  "updatedAt": "2026-11-27T13:06:26Z",
-  "count": 22,
+  "updatedAt": "2026-11-27T13:19:00Z",
+  "count": 23,
   "byDlc": {
     "": [
       50,
@@ -26,7 +26,8 @@
       3712,
       3771,
       4176,
-      4449
+      4449,
+      4818
     ]
   }
 }
