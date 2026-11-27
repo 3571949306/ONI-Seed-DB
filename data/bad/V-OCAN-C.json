@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "V-OCAN-C",
-  "updatedAt": "2026-11-27T20:21:34Z",
-  "count": 6,
+  "updatedAt": "2026-11-27T20:38:56Z",
+  "count": 7,
   "byDlc": {
     "EXPANSION1_ID": [
       170,
@@ -10,7 +10,8 @@
       798,
       4293,
       4307,
-      7296
+      7296,
+      8325
     ]
   }
 }
