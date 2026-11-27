@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T02:46:47Z",
-  "totalSeeds": 575,
+  "updatedAt": "2026-11-27T02:50:24Z",
+  "totalSeeds": 638,
   "clusters": [
     {
       "clusterPrefix": "AQU-C",
@@ -51,11 +51,14 @@
     {
       "clusterPrefix": "SNDST-C",
       "file": "data/SNDST-C.json",
-      "count": 68,
-      "sha256": "7a43b043a97246d8c40948e9988fe668e6f50d0d1df8b47b9b5d2f3d4d3148f0",
+      "count": 99,
+      "sha256": "d023a9a9c697a1a00af463003c0e270fb263d7a84e1946d63f6db6edb8d71b4f",
       "gzipFile": "data/SNDST-C.json.gz",
-      "gzipSha256": "69e0e924a148bf05cf75d97b0d9878348c581ac11f02706d646a3351d6aa0ca3",
-      "gzipBytes": 33140
+      "gzipSha256": "fc53ebac2151c716dea4ca057af65a1c2e9da63b69dfff0d42912e62181a8b7f",
+      "gzipBytes": 47248,
+      "badFile": "data/bad/SNDST-C.json",
+      "badCount": 1,
+      "badSha256": "c9e76c06b146fa3b5e1937809d6f1458141fb5300829e001f8334d8648b3b6d0"
     },
     {
       "clusterPrefix": "SWMP-C",
@@ -129,11 +132,11 @@
     {
       "clusterPrefix": "V-SNDST-C",
       "file": "data/V-SNDST-C.json",
-      "count": 68,
-      "sha256": "4775690622872bae95ef7fdcb066eda614b0eca60a5c34b5ea6c5948fc3e7cc0",
+      "count": 100,
+      "sha256": "63c07be7670a186d9d3e2cf24dc7ae140e2d5f33e877fb9d4b5999bb8801b4b1",
       "gzipFile": "data/V-SNDST-C.json.gz",
-      "gzipSha256": "8502f7507eeed7c88ed3ddcf435085ed9da3c7654619a55acc3ed33095935d7a",
-      "gzipBytes": 34813
+      "gzipSha256": "42c95520ea5779d8fce6cd60bfbc186d4d259f99c7731a83089df3d751339635",
+      "gzipBytes": 50243
     },
     {
       "clusterPrefix": "V-SWMP-C",
