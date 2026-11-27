@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "M-FRZ-C",
-  "updatedAt": "2026-11-27T11:21:23Z",
-  "count": 66,
+  "updatedAt": "2026-11-27T11:28:47Z",
+  "count": 70,
   "byDlc": {
     "EXPANSION1_ID": [
       15,
@@ -70,7 +70,11 @@
       1750,
       1773,
       1783,
-      1794
+      1794,
+      1893,
+      1926,
+      1968,
+      1974
     ]
   }
 }
