@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "M-CERS-C",
-  "updatedAt": "2026-11-27T12:06:27Z",
-  "count": 171,
+  "updatedAt": "2026-11-27T12:31:25Z",
+  "count": 173,
   "byDlc": {
     "EXPANSION1_ID": [
       8,
@@ -175,7 +175,9 @@
       1926,
       1965,
       1968,
-      2007
+      2007,
+      2022,
+      2097
     ]
   }
 }
