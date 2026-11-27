@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "AQU-C",
-  "updatedAt": "2026-11-27T13:01:51Z",
-  "count": 329,
+  "updatedAt": "2026-11-27T13:06:26Z",
+  "count": 330,
   "byDlc": {
     "EXPANSION1_ID": [
       27,
@@ -208,6 +208,7 @@
       2251,
       2259,
       2305,
+      2306,
       2379,
       2391,
       2397,
