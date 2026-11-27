@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "M-FLIP-C",
-  "updatedAt": "2026-11-27T08:06:12Z",
-  "count": 30,
+  "updatedAt": "2026-11-27T08:11:48Z",
+  "count": 32,
   "byDlc": {
     "EXPANSION1_ID": [
       15,
@@ -34,7 +34,9 @@
       963,
       987,
       995,
-      1001
+      1001,
+      1191,
+      1203
     ]
   }
 }
