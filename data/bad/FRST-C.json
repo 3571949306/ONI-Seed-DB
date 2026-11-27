@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "FRST-C",
-  "updatedAt": "2026-11-27T07:56:42Z",
-  "count": 9,
+  "updatedAt": "2026-11-27T09:13:49Z",
+  "count": 10,
   "byDlc": {
     "EXPANSION1_ID": [
       43,
@@ -13,7 +13,8 @@
       1231,
       1773,
       2301,
-      2343
+      2343,
+      2969
     ]
   }
 }
