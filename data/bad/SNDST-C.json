@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "SNDST-C",
-  "updatedAt": "2026-11-27T21:06:44Z",
-  "count": 33,
+  "updatedAt": "2026-11-27T21:11:01Z",
+  "count": 35,
   "byDlc": {
     "EXPANSION1_ID": [
       160,
@@ -37,7 +37,9 @@
       8295,
       8481,
       8754,
-      8766
+      8766,
+      8841,
+      8943
     ]
   }
 }
