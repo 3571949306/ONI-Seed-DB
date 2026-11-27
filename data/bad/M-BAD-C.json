@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "M-BAD-C",
-  "updatedAt": "2026-11-27T17:06:35Z",
-  "count": 116,
+  "updatedAt": "2026-11-27T17:13:01Z",
+  "count": 118,
   "byDlc": {
     "EXPANSION1_ID": [
       3,
@@ -120,7 +120,9 @@
       2892,
       3117,
       3153,
-      3201
+      3201,
+      3261,
+      3318
     ]
   }
 }
