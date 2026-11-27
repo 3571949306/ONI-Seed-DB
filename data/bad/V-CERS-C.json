@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "clusterPrefix": "V-CERS-C",
+  "updatedAt": "2026-11-27T03:02:36Z",
+  "count": 2,
+  "byDlc": {
+    "EXPANSION1_ID": [
+      11,
+      59
+    ]
+  }
+}
