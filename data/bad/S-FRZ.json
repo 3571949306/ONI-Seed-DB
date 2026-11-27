@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "clusterPrefix": "S-FRZ",
+  "updatedAt": "2026-11-27T13:01:52Z",
+  "count": 1,
+  "byDlc": {
+    "": [
+      2325
+    ]
+  }
+}
