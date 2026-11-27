@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "V-OASIS-C",
-  "updatedAt": "2026-11-27T16:51:36Z",
-  "count": 194,
+  "updatedAt": "2026-11-27T16:57:03Z",
+  "count": 196,
   "byDlc": {
     "EXPANSION1_ID": [
       6,
@@ -198,7 +198,9 @@
       6210,
       6252,
       6261,
-      6453
+      6453,
+      6525,
+      6543
     ]
   }
 }
