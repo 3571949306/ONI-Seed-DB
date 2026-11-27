@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "M-RAD-C",
-  "updatedAt": "2026-11-27T06:23:39Z",
-  "count": 31,
+  "updatedAt": "2026-11-27T06:36:07Z",
+  "count": 34,
   "byDlc": {
     "EXPANSION1_ID": [
       2,
@@ -17,10 +17,13 @@
       245,
       261,
       279,
+      284,
       287,
       295,
+      296,
       303,
       313,
+      314,
       335,
       371,
       397,
