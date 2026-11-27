@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "clusterPrefix": "V-BAD-C",
+  "updatedAt": "2026-11-27T03:33:37Z",
+  "count": 1,
+  "byDlc": {
+    "EXPANSION1_ID": [
+      379
+    ]
+  }
+}
