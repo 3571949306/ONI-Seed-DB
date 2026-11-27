@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T03:02:37Z",
-  "totalSeeds": 3139,
+  "updatedAt": "2026-11-27T03:05:29Z",
+  "totalSeeds": 3899,
   "clusters": [
     {
       "clusterPrefix": "AQU-A",
@@ -18,14 +18,14 @@
     {
       "clusterPrefix": "AQU-C",
       "file": "data/AQU-C.json",
-      "count": 116,
-      "sha256": "c049e16e1f08b40c545d205a128bfc564e94867aa21b5d752e2883f00a9a790a",
+      "count": 177,
+      "sha256": "aefa3664dbbe016d0ebd63f4c0fef73b5288bbf0800128faf6b4700b2bccabcc",
       "gzipFile": "data/AQU-C.json.gz",
-      "gzipSha256": "52f592908108c1f3f35618499c725c863f19cc21a253a24320cb36337273b3a2",
-      "gzipBytes": 78017,
+      "gzipSha256": "de916f3840bc98f3ac8bb5730732ad0489d7d9af5909b4d68c49113029e39de5",
+      "gzipBytes": 116952,
       "badFile": "data/bad/AQU-C.json",
-      "badCount": 12,
-      "badSha256": "173afd3853d453f6024489c50435014be7a2e02a37f6b361814ca319a3417d77"
+      "badCount": 15,
+      "badSha256": "0a4e5265fef92c328017ee5c829a0726c63746d4117f834b25ee54601a47b653"
     },
     {
       "clusterPrefix": "CER-A",
@@ -39,14 +39,14 @@
     {
       "clusterPrefix": "CER-C",
       "file": "data/CER-C.json",
-      "count": 157,
-      "sha256": "d2f3ba87d424d8b049e43093831cec35858cca280e9d0dc758e3811439e83105",
+      "count": 220,
+      "sha256": "6359e5a320352f3654252f486dca0162848d697515c1aefd253fbcff1db46748",
       "gzipFile": "data/CER-C.json.gz",
-      "gzipSha256": "ba05600eb28203e8fb9cdb610d4f5e56aa946665feb3a82a5c0524081d763c24",
-      "gzipBytes": 82573,
+      "gzipSha256": "50b22ca062dc0265c876f1f9a474c5595481248789d2ed88961e677b59c29132",
+      "gzipBytes": 115085,
       "badFile": "data/bad/CER-C.json",
-      "badCount": 3,
-      "badSha256": "270c949b3aa3456f1a3371614e5de1b70ca8ab005a3e059eb0c4aafeea867912"
+      "badCount": 4,
+      "badSha256": "42237b1eab240fc4ca7a4180d7a6d5f8b89686ee34633d0e1a14689d82f5a749"
     },
     {
       "clusterPrefix": "CERS-A",
@@ -69,11 +69,11 @@
     {
       "clusterPrefix": "FRST-C",
       "file": "data/FRST-C.json",
-      "count": 159,
-      "sha256": "fb20a9124ee2325420f6e2c4009cdbe0d9179a4f42ce1ef6e3578967abffad9a",
+      "count": 223,
+      "sha256": "7c4551b814c387dbd01ad39ab5f75bc210441248f3533de88b8c33b462fb63df",
       "gzipFile": "data/FRST-C.json.gz",
-      "gzipSha256": "b370b76314655240c25c4f6af03c1b66c5cc5cee4c7b6f14fb47370317d6dc17",
-      "gzipBytes": 84777,
+      "gzipSha256": "fe8723121ed589ab43f24de8b40d5072fa06e591bffd88e85c3eba70ab1a9010",
+      "gzipBytes": 120354,
       "badFile": "data/bad/FRST-C.json",
       "badCount": 1,
       "badSha256": "29f10271d829a256254d5162b85f380e6d193f060f70935150ac45e556350c2c"
@@ -159,14 +159,14 @@
     {
       "clusterPrefix": "PRE-C",
       "file": "data/PRE-C.json",
-      "count": 119,
-      "sha256": "9da15a29f1ed427779e8bd0132b3944d3711d790edd0d407bcc483c1f77f25c7",
+      "count": 182,
+      "sha256": "9abb52d1bbb30399af653cf05ec798dd685623d397cb2fa797f4bc905837cf07",
       "gzipFile": "data/PRE-C.json.gz",
-      "gzipSha256": "84de94d5f8903b8bcce1f97389afe0ae3d47f7b035d36b691338d466ec803d02",
-      "gzipBytes": 58100,
+      "gzipSha256": "50d0812718ab80fb0ef86c91cd39e43be44ded5e6d914774341b1c4d54edf0ff",
+      "gzipBytes": 88090,
       "badFile": "data/bad/PRE-C.json",
-      "badCount": 9,
-      "badSha256": "6ce0bc5b7ae8f6e55d6018cff868d79c1d66d7e3de58911c08ac75c602e7d5e5"
+      "badCount": 10,
+      "badSha256": "b2a3e49fb1d73c34ebb401503e4a523a81132150f6a66db26f1849e4c6ace4cf"
     },
     {
       "clusterPrefix": "PRES-A",
@@ -201,11 +201,11 @@
     {
       "clusterPrefix": "SNDST-C",
       "file": "data/SNDST-C.json",
-      "count": 195,
-      "sha256": "f70fd6d0563a7ded308513a7b20eab659cd1375fcc3ae65fa1af59ef784297c2",
+      "count": 227,
+      "sha256": "25d44198353561a24f25a504bb56419387d6c5b7120fad65d8c26895c5832fbe",
       "gzipFile": "data/SNDST-C.json.gz",
-      "gzipSha256": "f30f3700033b2b206d700a3f7c5746c076573490264d3612ce6174f48b815c08",
-      "gzipBytes": 91523,
+      "gzipSha256": "c8876cbd1d02752cad2656699f674a10f733804b4286ecac850b08bcaaf9953f",
+      "gzipBytes": 106760,
       "badFile": "data/bad/SNDST-C.json",
       "badCount": 1,
       "badSha256": "c9e76c06b146fa3b5e1937809d6f1458141fb5300829e001f8334d8648b3b6d0"
@@ -213,23 +213,26 @@
     {
       "clusterPrefix": "SWMP-C",
       "file": "data/SWMP-C.json",
-      "count": 159,
-      "sha256": "5e3782f21ff4f44ffd71f7af7bcc73e2012f0492c9738870065d2960ae8cc343",
+      "count": 222,
+      "sha256": "63ee599c2639d079ab4b93a806e3467c900fdff1697c1911bcf60648227014aa",
       "gzipFile": "data/SWMP-C.json.gz",
-      "gzipSha256": "7f4fef940809171f9aa23f7ac4659f04eeb25f8eba478ab143e082b4f229ae4b",
-      "gzipBytes": 84729,
+      "gzipSha256": "c43710a230d84394eb080a4680230c31ffb24e92704bf98a03a7f90c22c87bb9",
+      "gzipBytes": 118874,
       "badFile": "data/bad/SWMP-C.json",
-      "badCount": 1,
-      "badSha256": "18497d7354e3c515b9cd55d4a5c22668e9b7e1282da395093cf99ba08ad428e8"
+      "badCount": 2,
+      "badSha256": "bfb13ec5adb6361460cf8d617101062f59884bfbf8d2d4258f3b17baa6e3fcfb"
     },
     {
       "clusterPrefix": "V-AQU-C",
       "file": "data/V-AQU-C.json",
-      "count": 128,
-      "sha256": "aaae8733165b5329398b7cd515146b80b70f0a77fc01fbc9ce4ac42c81954f47",
+      "count": 190,
+      "sha256": "d10c4ac49e298bb46a8af4c39a1c68019bc9965eabbd84f7a61a909274bc3ebb",
       "gzipFile": "data/V-AQU-C.json.gz",
-      "gzipSha256": "aada11994c31e13b46d3056c251e51916f47a6862039afb59b23bcdfc3c90867",
-      "gzipBytes": 92487
+      "gzipSha256": "10678643ab402a1e3704ec3681fec15315c5c85b96eac2de6eee1fad7045f632",
+      "gzipBytes": 135085,
+      "badFile": "data/bad/V-AQU-C.json",
+      "badCount": 2,
+      "badSha256": "1ed8a9045da9ea8b2c9e53223a3b6fdf3ddfb406fe170e7146d1ff0595c81333"
     },
     {
       "clusterPrefix": "V-BAD-C",
@@ -243,11 +246,11 @@
     {
       "clusterPrefix": "V-CER-C",
       "file": "data/V-CER-C.json",
-      "count": 158,
-      "sha256": "e79ef43530e14075d44134f2bcf9c3a0ddbfb344c643c6caf121d7a582350135",
+      "count": 222,
+      "sha256": "053f04f30b216212640e05eb6a179ccf070826a4a41bacf1e77f2c56f749adc2",
       "gzipFile": "data/V-CER-C.json.gz",
-      "gzipSha256": "acae9084f84ee3654628f2532fb5c3bec89a53858b6b0d19c5f2247daeee149a",
-      "gzipBytes": 84796,
+      "gzipSha256": "4cdf41e23dad60c33e17153cffcd4eacfc22b78500be9596d1b3a0e5415a9645",
+      "gzipBytes": 117624,
       "badFile": "data/bad/V-CER-C.json",
       "badCount": 2,
       "badSha256": "4d636aa673a9d70bf77610a07e461886c2d6f866e68d464b0a3d581111e410ec"
@@ -267,11 +270,11 @@
     {
       "clusterPrefix": "V-FRST-C",
       "file": "data/V-FRST-C.json",
-      "count": 160,
-      "sha256": "6605ce034ccecaa62a746737943cfb3cd7d3fd14cb6a32bc46f23443464f467f",
+      "count": 224,
+      "sha256": "855e6adb156aff502c456fa89d6ce7d76a72d1f8907539d3d356faa9e7a825cf",
       "gzipFile": "data/V-FRST-C.json.gz",
-      "gzipSha256": "6bc71f714aca37a11d29f9f2f71d20e27e80aada5f2ce03e588e8dcd5e1f6e8a",
-      "gzipBytes": 85604
+      "gzipSha256": "f803af49a74a66d9afeb8f7aaacbd267781ba19304341373ef938aeb09141bfa",
+      "gzipBytes": 120559
     },
     {
       "clusterPrefix": "V-LUSH-C",
@@ -297,20 +300,20 @@
     {
       "clusterPrefix": "V-OCAN-C",
       "file": "data/V-OCAN-C.json",
-      "count": 128,
-      "sha256": "58536bb84ca01480b2d4646c7fd9ba8684aac62fe74b4fcadcd6b66674e93397",
+      "count": 192,
+      "sha256": "d2f62cc8f809df54ae6404b13c84b15c112fad69078963760b240ecbf5376ae0",
       "gzipFile": "data/V-OCAN-C.json.gz",
-      "gzipSha256": "4542890d47546f88737a7f7f8fc1a7e62223390020f66584a27387338d7a3ca9",
-      "gzipBytes": 72066
+      "gzipSha256": "6f409abcf6e217da649f7c4d51e257e580e92dc81b8d7fb92d3d88ed0151c3f6",
+      "gzipBytes": 107893
     },
     {
       "clusterPrefix": "V-PRE-C",
       "file": "data/V-PRE-C.json",
-      "count": 127,
-      "sha256": "e270052d45e1e5a16883c538e6ad974661c3bb23c31a0f6cf7fa0b4e398761e4",
+      "count": 191,
+      "sha256": "e3ec39a8a33b7985b78569bcab55ca40861848206168732e2d4dd0894a5502e8",
       "gzipFile": "data/V-PRE-C.json.gz",
-      "gzipSha256": "15aabe6b72bfa256b62c80e2e28d54fdcfe90030248926c4ec656898ad3d443e",
-      "gzipBytes": 63653,
+      "gzipSha256": "e5c0b34c637314b2a9d69e4e0c02f4643152da9b3d7c0dbf81fd2958ccb54cbf",
+      "gzipBytes": 94566,
       "badFile": "data/bad/V-PRE-C.json",
       "badCount": 1,
       "badSha256": "3da08a62d765c9b8f7e3f6e207c1cec2b791b15c5fb15c16959adff880eace07"
@@ -339,20 +342,20 @@
     {
       "clusterPrefix": "V-SNDST-C",
       "file": "data/V-SNDST-C.json",
-      "count": 196,
-      "sha256": "abbfd8898dd26bfcbbb421b97edc680ae01f711b134a96761bf5f0335603390b",
+      "count": 228,
+      "sha256": "cdf0531f2960c8e75001ba74ebe49bc91f7c1a280aee10d2ba7777cf8c604801",
       "gzipFile": "data/V-SNDST-C.json.gz",
-      "gzipSha256": "c4f4a682bf1bd7d5a59946e7406df2ba285f3786e44990f29ca572301a2f7fa8",
-      "gzipBytes": 96989
+      "gzipSha256": "52370ded966f36bd57ef15a0eaf34e4da8a2dea33685de73a1e7ebbf663c6c21",
+      "gzipBytes": 112723
     },
     {
       "clusterPrefix": "V-SWMP-C",
       "file": "data/V-SWMP-C.json",
-      "count": 149,
-      "sha256": "ac6b9d49c07400c23c98424b40245d561fa9310558fcac35e514813518d704ef",
+      "count": 213,
+      "sha256": "756b9cfbb2695aaf3aaa314b44bd266a051d880716a83b10031b768709be71dc",
       "gzipFile": "data/V-SWMP-C.json.gz",
-      "gzipSha256": "99d2af1f795dce47fc64f49e63ac90d88cc3e20ff6057dc19b371bc34b7feedc",
-      "gzipBytes": 122463,
+      "gzipSha256": "25e8d123bcd4aa5ffff3b8f5ac04dbb996499ddfc871241241751a74487de8a5",
+      "gzipBytes": 174271,
       "badFile": "data/bad/V-SWMP-C.json",
       "badCount": 11,
       "badSha256": "d355f4525e4f7e329353b2c1ec94380553dec674ef89a9230b5a4376b28a42f5"

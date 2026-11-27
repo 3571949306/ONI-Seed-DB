@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "CER-C",
-  "updatedAt": "2026-11-27T03:02:36Z",
-  "count": 3,
+  "updatedAt": "2026-11-27T03:05:27Z",
+  "count": 4,
   "byDlc": {
     "EXPANSION1_ID": [
       43,
       79,
+      96,
       109
     ]
   }
