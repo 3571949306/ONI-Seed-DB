@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "V-SFRZ-C",
-  "updatedAt": "2026-11-27T08:51:15Z",
-  "count": 1,
+  "updatedAt": "2026-11-27T16:26:28Z",
+  "count": 2,
   "byDlc": {
     "EXPANSION1_ID": [
-      488
+      488,
+      3078
     ]
   }
 }
