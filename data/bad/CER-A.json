@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "CER-A",
-  "updatedAt": "2026-11-27T05:37:48Z",
-  "count": 17,
+  "updatedAt": "2026-11-27T06:08:31Z",
+  "count": 19,
   "byDlc": {
     "": [
       44,
@@ -21,7 +21,9 @@
       1119,
       1191,
       1285,
-      1315
+      1315,
+      1491,
+      1521
     ]
   }
 }
