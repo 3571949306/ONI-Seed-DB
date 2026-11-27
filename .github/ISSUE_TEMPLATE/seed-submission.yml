@@ -1,0 +1,21 @@
+name: 社区种子索引批量上传 (ONI-Trainer Seed Index Upload)
+description: 批量上传 ONI-Trainer 筛选过程中自动记录的无预览图种子索引（支持 [seed-db-gzip] 压缩包与 JSON），Bot 将自动校验并合入仓库。
+title: "[seed-submit] "
+labels: ["seed-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请直接保留或粘贴由 **ONI-Trainer「上传记录 / 上传全部记录」** 自动生成的 `[seed-db-gzip]` 压缩数据块或 JSON 数据块。
+        提交 Issue 后，GitHub Actions 机器人会在约 10~30 秒内自动解压校验、按星群分片去重合并并更新 `manifest.json` 快速索引。
+  - type: textarea
+    id: payload
+    attributes:
+      label: 种子索引数据 (请保留 [seed-db-gzip] 压缩块、[seed-db-json] 或 json 代码块)
+      description: 单次最多支持合并 25,000 条无预览图种子记录（含坐标、星球特质、间歇泉/火山/遗迹坐标与产率评级）。
+      placeholder: |
+        [seed-db-gzip]
+        H4sIAAAAAAAAC...
+        [/seed-db-gzip]
+    validations:
+      required: true

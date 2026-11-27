@@ -1,0 +1,145 @@
+name: Merge Community Seed Submission
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+  workflow_dispatch:
+    inputs:
+      rebuild_manifest:
+        description: "Rebuild manifest.json across all data files"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  merge-seeds:
+    runs-on: ubuntu-latest
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      contains(github.event.issue.labels.*.name, 'seed-submission') ||
+      startsWith(github.event.issue.title, '[seed-submit]')
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run seed submission validator, merger & atomic push
+        if: github.event_name == 'issues'
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python3 - <<'PY'
+          import os
+          with open("/tmp/issue_body.txt", "w", encoding="utf-8") as f:
+              f.write(os.environ.get("ISSUE_BODY", ""))
+          PY
+          git config user.name "oni-seed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          RC=1
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "$BRANCH"
+            git reset --hard "origin/$BRANCH"
+            set +e
+            python3 scripts/merge_submission.py \
+              --repo-root . \
+              --issue-body-file /tmp/issue_body.txt \
+              --author "${ISSUE_AUTHOR}" \
+              --result-out /tmp/merge_result.json
+            RC=$?
+            set -e
+            if [ "$RC" != "0" ]; then
+              break
+            fi
+            git add manifest.json data/
+            if git diff --cached --quiet; then
+              echo "No database changes to commit."
+              break
+            fi
+            git commit -m "chore(seed-db): merge submission from #${ISSUE_NUMBER} [skip ci]"
+            if git push origin "HEAD:${BRANCH}"; then
+              break
+            fi
+            echo "Push conflict on attempt ${attempt}, rebasing against latest ${BRANCH}..."
+            sleep $((attempt * 2))
+          done
+          echo "merge_rc=$RC" >> "$GITHUB_ENV"
+
+      - name: Rebuild manifest on manual dispatch
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "oni-seed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 scripts/merge_submission.py --repo-root . --rebuild-manifest --result-out /tmp/merge_result.json
+          echo "merge_rc=0" >> "$GITHUB_ENV"
+          git add manifest.json data/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(seed-db): rebuild manifest [skip ci]"
+            git push
+          fi
+
+      - name: Comment and close issue
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let res = { ok: false, message: 'Unexpected validator failure', added: 0, merged: 0, rejected: 0, errors: [] };
+            try {
+              res = JSON.parse(fs.readFileSync('/tmp/merge_result.json', 'utf8'));
+            } catch (e) {}
+
+            let body;
+            if (res.ok) {
+              body = [
+                '### ONI-Seed-Bot 自动入库成功',
+                '',
+                `- 新增种子：**${res.added}** 条`,
+                `- 合并去重：**${res.merged}** 条`,
+                `- 更新分片：${(res.clusters || []).join(', ') || '无'}`,
+                `- 仓库总收录：**${res.totalSeeds}** 条`,
+                '',
+                res.errors && res.errors.length
+                  ? '> 部分无效子条目已忽略：\n' + res.errors.map(x => `> - ${x}`).join('\n')
+                  : '感谢你的分享！其他玩家现在可以在 ONI-Trainer「社区库」中同步到这些种子。'
+              ].join('\n');
+            } else {
+              body = [
+                '### ONI-Seed-Bot 校验未通过',
+                '',
+                `原因：${res.message || '未找到有效 JSON 数据'}`,
+                '',
+                ...(res.errors || []).slice(0, 8).map(x => `- ${x}`),
+                '',
+                '请使用 ONI-Trainer 客户端自带的「投稿到社区库」功能重新生成提交内容。'
+              ].join('\n');
+            }
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body
+            });
+
+            if (res.ok) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                state: 'closed',
+                state_reason: 'completed'
+              });
+            }
