@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "clusterPrefix": "CER-C",
-  "updatedAt": "2026-11-28T04:36:49Z",
-  "count": 45,
+  "updatedAt": "2026-11-28T05:51:52Z",
+  "count": 46,
   "byDlc": {
     "EXPANSION1_ID": [
       43,
@@ -46,6 +46,7 @@
       7152,
       7205,
       7454,
+      7886,
       8079,
       8154,
       8214,
